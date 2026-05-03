@@ -25,8 +25,8 @@ int main(int argc, char *argv[]) {
 #endif
 
     QApplication app(argc, argv);
-    app.setOrganizationName("leapbtw");
-    app.setApplicationName("uxplay-windows");
+    app.setOrganizationName("MS");
+    app.setApplicationName("MAESTRO-SCREEN");
     app.setWindowIcon(QIcon(QApplication::applicationDirPath() + "/resources/icon.ico"));
     
     QString appPath = QApplication::applicationDirPath();
